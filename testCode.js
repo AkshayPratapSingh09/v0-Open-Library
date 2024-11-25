@@ -11,7 +11,7 @@ aW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JzsNCg0KZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gV2Vic2l0
 // Send POST request to backend
 (async () => {
   try {
-    const response = await axios.post("http://localhost:3000/build", {
+    const response = await axios.post("https://v0-open-library.onrender.com/build", {
       code: codeData,
     });
 
